@@ -1,0 +1,17 @@
+## Variables
+
+$artifact_kit_path = script_resource("artifact");
+$mimikatz_kit_path = script_resource("mimikatz");
+$process_inject_kit_path = script_resource("process_inject");
+$resource_kit_path = script_resource("resource");
+$sleepmask_kit_path = script_resource("sleepmask");
+$udrl_kit_path = script_resource("udrl");
+
+## Helper Functions
+inline print_info {
+   println(formatDate("[HH:mm:ss] ") . "\cE[arsenal_kit.cna]\o " . $1);
+}
+
+inline print_error {
+   println(formatDate("[HH:mm:ss] ") . "\c4[arsenal_kit.cna]\o " . $1);
+}
