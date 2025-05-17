@@ -127,5 +127,5 @@ Commands that use the hooks will display their output in the script console.
 ---
 
 > **Disclaimer:**  
-> This software is provided “as-is,” without any express or implied warranty. Use it at your own risk. We are not responsible for any damage or misuse. Cobalt Strike is a commercial product of Fortra, LLC; this kit is a community extension and is not endorsed by or affiliated with Fortra, LLC.
+> This software is provided as-is, without any express or implied warranty. Use it at your own risk. We are not responsible for any damage or misuse. Cobalt Strike is a commercial product of Fortra, LLC; this kit is a community extension and is not endorsed by or affiliated with Fortra, LLC.
 
