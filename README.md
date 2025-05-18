@@ -29,6 +29,42 @@ Required software:
 
 Commands that use the hooks will display their output in the script console.
 
+
+## Kits and Supported Cobalt Strike Versions
+
+| Kit                 | Cobalt Strike Version |
+| ------------------- | --------------------- |
+| Artifact            | 4.x                   |
+| Sleepmask           | 4.7 and later         |
+| UDRL                | 4.4 and later         |
+| UDRL-VS             | 4.4 and later         |
+| Mimikatz (20220919) | 4.5 and later         |
+| Postex              | 4.10 and later        |
+| Resource            | 4.x                   |
+| Process Inject      | 4.5 and later         |
+| Mutator             | 4.7 and later         |
+
+**Not included:**
+
+* Elevate Kit
+* applet
+* powerapplet
+
+## Description of Kit Files and Directories
+
+| Location                              | Description                                  |
+| ------------------------------------- | -------------------------------------------- |
+| `arsenal_kit.config`                  | Arsenal Kit configuration                    |
+| `build_arsenal_kit.sh`                | Arsenal Kit build script                     |
+| `templates/`                          | Global Aggressor script templates            |
+| `templates/arsenal_kit.cna.template`  | Base Arsenal Kit script template             |
+| `templates/helper_functions.template` | Helper functions template                    |
+| `dist/`                               | Default output directory for build artifacts |
+| `kits/`                               | Source code for individual kits              |
+| `kits/<KIT>/script_template.cna`      | Base template for a specific kit             |
+
+
+
 # Arsenal Kit Release Notes
 
 ## Latest Updates
